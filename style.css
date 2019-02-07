@@ -1,0 +1,111 @@
+/*desktop view*/
+body{
+	background: pink;
+
+}
+#main{
+	background: Lightgreen;
+	margin: 3%;
+	display: flex;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: aqua;
+	margin: 4%;
+	border-radius: 5%;	
+	text-align: center;
+   box-shadow: 4px 4px 4px 4px;
+   width: 35%;
+   height: 30%;
+   margin: 4%;
+}
+.rightdiv{
+	background: bisque;
+     margin: 4%;
+	border-radius: 5%;	
+	box-shadow: 4px 4px 4px 4px;
+	width: 59%;
+	padding: 2%;
+	margin: 4%;
+}
+img{
+	width: 60%;
+	height: 25%;
+	border-radius: 4%;
+	margin: 3%;
+}
+/*mobile view*/
+@media screen and (max-width:480px) {
+body{
+	background: green;
+}
+
+#main{
+	background: pink;
+	margin: 1%;
+	display: inline-block;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: #1785DB;
+	margin: 2%;
+	border-radius: 5%;	
+	text-align: center;
+   box-shadow: 1px 1px 1px 1px;
+   width: 98%;
+   height: 40%;
+
+}
+.rightdiv{
+	background: #768fa2;
+     margin: 2%;
+	border-radius: 5%;	
+	box-shadow: 1px 1px 1px 1px;
+	width: 94%;
+	padding: 2%;
+
+}
+img{
+	width: 60%;
+	height: 25%;
+	border-radius: 4%;
+	margin: 3%;
+}
+}
+/*tab view*/
+@media screen and (min-width:481px) and (max-width: 1024px) {
+body{
+	background: red;
+     }
+     #main{
+	background: pink;
+	margin: 1%;
+	display: inline-block;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: #008080;
+	margin: 2%;
+	border-radius: 5%;	
+	text-align: center;
+   box-shadow: 1px 1px 1px 1px;
+   width: 96%;
+   height: 40%;
+
+}
+.rightdiv{
+	background: orange;
+     margin: 2%;
+	border-radius: 5%;	
+	box-shadow: 1px 1px 1px 1px;
+	width: 92%;
+	padding: 2%;
+
+}
+img{
+	width: 60%;
+	height: 25%;
+	border-radius: 4%;
+	margin: 3%;
+}
+}

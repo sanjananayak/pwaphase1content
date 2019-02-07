@@ -1,0 +1,35 @@
+body{
+	background: violet;
+}
+#main{
+	background: pink;
+	margin: 2%;
+	display: flex;
+	justify-content: space-around;
+}
+.left{
+	background: grey;
+	margin: 2%;
+	border-radius: 5%;	
+	text-align: center;
+   box-shadow: 2px 2px 2px 2px;
+   width: 35%;
+   height: 40%;
+  
+}
+img{
+	width: 60%;
+	height: 25%;
+	border-radius: 4%;
+	margin: 3%;
+}
+.rightdiv{
+	background: bisque;
+     margin: 2%;
+	border-radius: 5%;	
+	box-shadow: 2px 2px 2px 2px;
+	width: 59%;
+	height: 65%;
+    text-align: center;
+}
+

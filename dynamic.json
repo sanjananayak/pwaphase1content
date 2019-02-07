@@ -1,0 +1,48 @@
+{
+	"profile":{
+		"image":"image/purna.png",
+		"name":"sanjana",
+		"roll":"592",
+		"institute":"pragati",
+		"place":"kakinada"
+	},
+	"career":{
+		"info":"to secure  challenging position where i can explore my talents for the benefit of the organisation"
+
+	},
+	"education":[
+        {
+        	"s":"1",
+        	"degree":"b.tech",
+        	"institute":"xxxx",
+        	"yop":"2018"
+        },
+         {
+        	"s":"2",
+        	"degree":"inter",
+        	"institute":"abc",
+        	"yop":"2013"
+        },
+         {
+        	"s":"3",
+        	"degree":"ssc",
+        	"institute":"xyz",
+        	"yop":"2012"
+        }
+
+],
+	"languages":[
+             {
+             	"lang":"english"
+
+             },
+             {
+             	"lang":"hindi"
+
+             },
+             {
+             	"lang":"oriya"
+
+             }
+    ]
+}
